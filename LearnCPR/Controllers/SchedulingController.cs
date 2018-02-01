@@ -2,7 +2,7 @@
 
 namespace LearnCPR.Controllers
 {
-    public class ClassManagementController : Controller
+    public class SchedulingController : Controller
     {
         public ActionResult Index()
         {

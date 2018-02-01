@@ -32,13 +32,13 @@
                     @if (User.IsInRole("SystemAdmin") || User.IsInRole("Admin") || User.IsInRole("Teacher"))
                     {
                         <li>
-                            @Html.ActionLink("Class Schedule","Index","ClassManagement")
+                            @Html.ActionLink("My Schedule","Index","Scheduling")
                         </li>
                     }
                     @if (User.IsInRole("SystemAdmin") || User.IsInRole("Admin") || User.IsInRole("Student"))
                     {
                         <li>
-                            @Html.ActionLink("Class Schedule","Index","Classes")
+                            @Html.ActionLink("Scheduling","Index","Scheduling")
                         </li>
                     }
 

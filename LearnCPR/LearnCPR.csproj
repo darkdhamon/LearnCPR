@@ -192,9 +192,9 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BillingController.cs" />
     <Compile Include="Controllers\ClassesController.cs" />
-    <Compile Include="Controllers\ClassManagementController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\SchedulingController.cs" />
     <Compile Include="Controllers\SiteManagementController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -265,8 +265,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Billing\Index.cshtml" />
     <Content Include="Views\SiteManagement\Index.cshtml" />
-    <Content Include="Views\ClassManagement\Index.cshtml" />
-    <Content Include="Views\Classes\Index.cshtml" />
+    <Content Include="Views\Scheduling\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
